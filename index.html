@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>Wiki Search</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name=description content="This is Taulant Shametaj's project.">
+<meta name="keywords" content="Taulant Shametaj, HTML, CSS, PHP, JavaScript, Web Developer, Software, Engineering,">
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> 
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  
+<link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body>
+  <header>
+  <h1>WikiSearch</h1>
+  <h3>Search the largest free online encyclopedia</h3>
+  
+</header>
+<main>
+  <div class="search-container">
+    <form>
+      <span class="fa fa-search fa-lg"></span>
+      <span class="search-text">Enter text here</span>
+      <input type="search" class="text">
+      <input type="button" value="Search" class="btn search-btn">
+    </form>
+  </div><br><br>
+  <h3 class="random-wiki" style="text-align: center;">See random Wikipedia articles <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">here :)</a></h3>  
+  <h2 class="result"></h2>
+  <div class="loader"></div>
+  <div class="entries"> 
+  </div>
+</main>
+<footer>
+  <div class="credits">
+    <p>Powered by <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></p>
+    <p>&copy; Taulant Shametaj 2018</p>
+  </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
